@@ -3,7 +3,7 @@ on:
   pull_request:
   push:
     branches:
-      - main    
+# comment added      - main    
 jobs:
   scan:
     runs-on: ubuntu-latest 
