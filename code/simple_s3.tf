@@ -7,11 +7,11 @@ resource "aws_s3_bucket" "dev_s3" {
 
   tags = {
     Environment          = "Dev"
-    git_commit           = "d4c35e0270bfd542051278ca30b4b3872c1ae0b2"
+    git_commit           = "c7f59568370b0c7885b2af6c56c383c62fd9c525"
     git_file             = "code/simple_s3.tf"
-    git_last_modified_at = "2024-01-26 23:01:56"
-    git_last_modified_by = "tprendervill@paloaltonetworks.com"
-    git_modifiers        = "tprendervill"
+    git_last_modified_at = "2024-02-20 18:06:36"
+    git_last_modified_by = "115211674+taylorwood95@users.noreply.github.com"
+    git_modifiers        = "115211674+taylorwood95/tprendervill"
     git_org              = "taylorwood95"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "dev_s3"
